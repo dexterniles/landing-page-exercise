@@ -50,10 +50,17 @@ ul {
     padding-bottom: 100px;
 }
 
-img {
+.studebaker {
     max-width: 40%;
     height: auto;
     margin-right: 150px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.card-image {
+    max-width: 80%;
+    height: auto;
     border: 1px solid transparent;
     border-radius: 15px;
 }
@@ -65,13 +72,13 @@ img {
     gap: 15px;
 }
 
-h2 {
+.hero {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
 }
 
-p {
+.sub {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -82,4 +89,43 @@ button {
     border-radius: 5px;
     border: 1px solid #3882f6;
     color: #e5e7eb;
+    font-size: 14px;
+}
+
+.q2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #f9faf8;
+    gap: 35px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.cards {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.highlight-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-text {
+    color: #1f2937;
+    font-size: 18px;
 }
