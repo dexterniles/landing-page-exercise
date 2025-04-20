@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -83,7 +83,7 @@ ul {
     color: #e5e7eb;
 }
 
-button {
+.top {
     background-color: #3882f6;
     padding: 10px;
     border-radius: 5px;
@@ -128,4 +128,67 @@ button {
 .card-text {
     color: #1f2937;
     font-size: 18px;
+}
+
+.q3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    gap: 25px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+}
+
+.q4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.newsletter-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 50px;
+    gap: 25px;
+}
+
+.newsletter-left {
+    display: flex;
+    flex-direction: column;
+    color: #e3e7e3;
+}
+
+.bottom {
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e7e3;
+    color: #e5e7eb;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 75px 25px 75px 25px;
 }
