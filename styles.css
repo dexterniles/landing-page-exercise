@@ -120,9 +120,32 @@ ul {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    border: 3px solid #3883f6;
 }
 
 #card-image-text {
     color: #1f2937;
 }
 
+.s3 {
+    background-color: #e5e7eb;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#s3-quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#s3-author {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 15px;
+}
