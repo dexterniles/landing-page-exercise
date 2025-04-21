@@ -1,0 +1,1 @@
+This is my first attempt at a landing page that actually looks somewhat decent. I am very very sure that there are things that i could do differently but this was by best no-help attempt. If you have any comments please don't hesitate to give a recommendation, i need all the help i can get!
