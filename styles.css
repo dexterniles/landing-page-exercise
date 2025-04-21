@@ -149,3 +149,40 @@ ul {
     text-align: right;
     margin-right: 15px;
 }
+
+.s4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3883f6;
+    padding: 50px;
+    border-radius: 5px;
+    width: 1000px;
+    color: #e5e7eb;
+}
+
+#cta-button {
+    background-color: #3883f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+    height: 35px;
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
